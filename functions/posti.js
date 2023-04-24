@@ -7,7 +7,7 @@ let ref=event.headers.referer;
       statusCode: 301,
       headers: {
         'cache-control': 'public, max-age=0, must-revalidate',
-        location: 'https://lifeanimalsblog.com/' + pathName[4] 
+        location: 'https://storycenter.net/' + pathName[4] 
       }
     }
   } else {
