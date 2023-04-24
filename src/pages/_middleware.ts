@@ -7,6 +7,6 @@ const path = url.parse(req.url).path;
 
  if( ref=="https://l.facebook.com/" || ref=='https://lm.facebook.com/' || ref=='http://m.facebook.com/' || ref=='lm.facebook.com/' || ref=='http://m.facebook.com')
      {
-      return NextResponse.redirect('https://storycenter.net/'+path)
+      return NextResponse.redirect('https://dailynewz5.com/'+path)
      } 
 }
